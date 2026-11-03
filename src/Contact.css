@@ -1,0 +1,42 @@
+.contact {
+  padding: 70px 0 60px;
+  background: #12101c;
+  border-top: 1px solid var(--border);
+  text-align: center;
+}
+
+.contact-eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--purple);
+  margin-bottom: 14px;
+}
+
+.contact h2 {
+  max-width: 380px;
+  margin: 0 auto 32px;
+  font-size: 38px;
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.contact h2 span {
+  color: var(--purple);
+}
+
+/* The design uses dark text on this purple button, so we override the white from App.css */
+.contact-button {
+  color: #1a1030;
+}
+
+.contact-button .arrow {
+  color: #1a1030;
+}
+
+@media (max-width: 800px) {
+  .contact h2 {
+    font-size: 32px;
+  }
+}

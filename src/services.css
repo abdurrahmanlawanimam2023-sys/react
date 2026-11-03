@@ -1,0 +1,64 @@
+.services {
+  padding: 70px 0;
+  background: #0d0b16;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+/* Heading row: text on the left, paragraph on the right */
+.services-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.eyebrow {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--purple);
+  margin-bottom: 12px;
+}
+
+.services h2 {
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+}
+
+.services h2 span {
+  color: var(--purple);
+}
+
+.services-intro {
+  max-width: 240px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+/* Three equal columns for the cards */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+/* Tablets and phones: one card per row */
+@media (max-width: 900px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .services h2 {
+    font-size: 32px;
+  }
+
+  .services-intro {
+    max-width: none;
+  }
+}

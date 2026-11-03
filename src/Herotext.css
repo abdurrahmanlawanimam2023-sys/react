@@ -1,0 +1,89 @@
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #4ade80;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 1.05;
+  font-weight: 800;
+  letter-spacing: -2px;
+  margin-bottom: 24px;
+}
+
+.purple {
+  color: var(--purple);
+}
+
+.subtitle {
+  max-width: 420px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--muted);
+  margin-bottom: 32px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.note {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 56px;
+}
+
+.note-icon {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #3b2d6b;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  color: var(--purple);
+}
+
+.note strong {
+  font-size: 12px;
+}
+
+.note p {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+.label {
+  font-size: 10px;
+  letter-spacing: 1.5px;
+  color: #8a869a;
+}
+
+.label span {
+  color: var(--purple);
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 40px;
+  }
+}
