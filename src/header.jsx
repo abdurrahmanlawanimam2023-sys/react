@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./header.css";
 
 // The menu links live in a list, so adding a new link is just one new line
 const navLinks = ["Home", "Services", "Projects"];

@@ -1,5 +1,5 @@
 import "./Services.css";
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./servicecard";
 
 // The data for the three cards. To add a fourth card, add one more block here.
 const services = [

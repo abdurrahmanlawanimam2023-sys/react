@@ -1,4 +1,4 @@
-import "./Contact.css";
+import "./contact.css";
 
 // The big "call to action" before the footer
 export default function Contact() {

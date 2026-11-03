@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "./footer.css";
 
 export default function Footer() {
   // Gets the current year from the computer, so you never have to update it by hand

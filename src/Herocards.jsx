@@ -1,4 +1,4 @@
-import "./HeroCards.css";
+import "./heroCards.css";
 
 // Right side of the hero: the stacked cards and the two floating labels
 export default function HeroCards() {

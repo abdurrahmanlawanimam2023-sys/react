@@ -1,4 +1,4 @@
-import "./HeroText.css";
+import "./heroText.css";
 
 // Left side of the hero: badge, heading, paragraph, buttons and small note
 export default function HeroText() {

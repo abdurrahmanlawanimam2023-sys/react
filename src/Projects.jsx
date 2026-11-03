@@ -1,5 +1,5 @@
 import "./Projects.css";
-import ProjectCard from "./ProjectCard";
+import ProjectCard from "./projectcard";
 
 // The data for the two project cards. "theme" picks the color (purple or green).
 const projects = [

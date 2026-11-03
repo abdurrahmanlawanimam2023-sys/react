@@ -1,11 +1,11 @@
 import "./App.css";
-import Header from "./Header";
-import HeroText from "./HeroText";
-import HeroCards from "./HeroCards";
-import Services from "./Services";
-import Projects from "./Projects";
-import Contact from "./Contact";
-import Footer from "./Footer";
+import Header from "./header";
+import HeroText from "./heroText";
+import HeroCards from "./herocards";
+import Services from "./services";
+import Projects from "./projects";
+import Contact from "./contact";
+import Footer from "./footer";
 
 // App just puts the components together, in order from top to bottom
 export default function App() {
