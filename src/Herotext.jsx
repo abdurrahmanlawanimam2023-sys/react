@@ -1,7 +1,7 @@
 import "./heroText.css";
 
 // Left side of the hero: badge, heading, paragraph, buttons and small note
-export default function HeroText() {
+export default function heroText() {
   return (
     <section className="hero-text">
       <div className="badge">

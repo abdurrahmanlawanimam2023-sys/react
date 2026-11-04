@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./header";
-import HeroText from "./Herotext";
-import HeroCards from "./Herocards";
+import HeroText from "./herotext";
+import HeroCards from "./herocards";
 import Services from "./services";
 import Projects from "./projects";
 import Contact from "./contact";
